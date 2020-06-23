@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap&subset=latin-ext');
+
+body
+{
+	background-color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-style: 16px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 1600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+
+}
+#fheader
+{
+	display: flex;
+	border: 1px solid red;
+	justify-content: space-between;
+	align-items: center;
+	padding: 7px 5% 10px 2%;
+	background-color: #fff;
+}
+.menu
+{
+	position: sticky;
+	top: 0px;
+	width: 100%
+
+}
+#logo img
+{
+	max-width: 150px;
+	cursor: pointer;
+}
+#navi
+{
+	font-size: 18px;
+}
+#navi a
+{
+	text-decoration: none;
+	margin-right: 1em;
+	color: #000;
+	transition: all 0.9s ease;
+	border: 2px solid #fff;
+	border-radius: 7px;
+	padding: 4px;
+	font-size: 14px;
+}
+#navi a:hover
+{
+	color: #fff;
+	text-shadow: 3px 2px 4px gray;
+	border: 2px solid #392912;
+	background-color: #392912;
+
+}
+#sec1
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #010101;
+	margin-bottom: 0px;	
+}
+#foto
+{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	border: 1px solid red;
+	background-color: #010101;
+	justify-content: center;
+}
+#foto img
+{
+	align-self: center;
+}
+section
+{
+	display: flex;
+	flex-direction: column;
+	padding: 40px 0px 40px 0px;
+	margin-bottom: 30px;
+}
+h1, h2, h3, p
+{
+	margin-left: auto;
+	margin-right: auto;
+/* 	border: 1px solid red; */
+	width: 90%;
+	color: #010101
+}
+p
+{
+margin-top: 0.7em;
+margin-bottom: 0.3em;
+}
+ul
+{
+	list-style: none;
+	text-align: center;
+	padding-inline-start: 0px;
+	font-size: 14px;
+
+}
+/*.sticky
+{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 2;
+}*/
+#scrollup
+{
+	width: 40px;
+	height: 40px;
+	background: url("img/scrollup.png") no-repeat 0px 0px;
+	position: fixed;
+	right: 20px;
+	bottom: 50px;
+	background-size: 40px 40px;
+}
+h1
+{
+color: #fff;
+text-align: center;
+}
+#cytat
+{
+	color: #fff;
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+h3{
+	text-align: center;
+}
+.sec
+{
+	margin: 5% 8% 2% 8%;
+	text-align: center;
+	font-size: 16px;
+}
+.sec:hover
+{
+	-webkit-box-shadow: 10px 10px 20px 5px rgba(0,0,0,0.3);
+	-moz-box-shadow: 10px 10px 20px 5px rgba(0,0,0,0.3);
+	box-shadow: 10px 10px 20px 5px rgba(0,0,0,0.3);
+}
+span
+{
+	font-size: 18px;
+}
+#kar
+{
+	background-image: url("img/tlo1.png");
+	background-origin: padding-box;
+	background-repeat: space;
+	background-position: left top;
+}
+#Kariera
+{
+	background: rgba(255, 255, 255, 0.85);
+
+}
+#kolum
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+#kolum div
+{
+	width: 30%;
+	line-height: 1.4em;
+	padding-bottom: 80px;
+}
+#Filmografia
+{
+	border-bottom: 15px double #333333;
+	border-radius: 10px 10px 10px 10px;
+	border-top: 15px double #333333;
+
+}
+#Aktor
+{
+	border-bottom: 15px double #333333;
+	border-top: 15px double #333333;
+	border-right: 15px double #333333;
+	border-radius: 10px 10px 10px 10px;
+}
+#Dyskografia
+{
+	border-bottom: 15px double #333333;
+	border-top: 15px double #333333;
+	border-left: 15px double #333333;
+	border-radius: 10px 10px 10px 10px;	
+}
+.epad
+{
+padding: 0px 8% 0px 8%
+}
+#galeria
+{
+	display: flex;
+	justify-content: space-between;}
+#galeria img
+{
+	width: 20%;
+}
+#separator
+{
+	padding: -40px 0px 0px 0px;
+}
