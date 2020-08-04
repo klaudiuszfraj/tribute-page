@@ -103,6 +103,7 @@ ul
 	text-align: center;
 	padding-inline-start: 0;
 	font-size: 14px;
+	padding: 0 30px;
 
 }
 /*.sticky
@@ -207,7 +208,9 @@ padding: 0 8% 0 8%
 .galeria
 {
 	display: flex;
-	justify-content: space-between;}
+	justify-content: space-between;
+	padding: 70px 0;
+}
 .galeria img
 {
 	width: 20%;
@@ -215,4 +218,14 @@ padding: 0 8% 0 8%
 .separator
 {
 	margin-top: -40px;
-;}
+}
+@media screen and (max-width: 800px){
+.galeria{
+	flex-direction: column;
+}
+.galeria img{
+	width: 100%;
+	margin: 20px 0;
+}
+
+}
