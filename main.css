@@ -58,7 +58,7 @@ body
 	background-color: #392912;
 
 }
-.sec1
+.header__photo
 {
 	display: flex;
 	flex-direction: column;
@@ -140,13 +140,15 @@ text-align: center;
 h3{
 	text-align: center;
 }
-.sec
+.text--container
 {
 	margin: 5% 8% 2% 8%;
 	text-align: center;
 	font-size: 16px;
+	padding: 0 8% 0 8%
+
 }
-.sec:hover
+.text--container:hover
 {
 	-webkit-box-shadow: 10px 10px 20px 5px rgba(0,0,0,0.3);
 	-moz-box-shadow: 10px 10px 20px 5px rgba(0,0,0,0.3);
@@ -156,62 +158,58 @@ span
 {
 	font-size: 18px;
 }
-.kar
+.kcareer--bg
 {
 	background-image: url("img/tlo1.png");
 	background-origin: padding-box;
 	background-repeat: space;
 	background-position: left top;
 }
-.Kariera
+.career--content
 {
 	background: rgba(255, 255, 255, 0.85);
 
 }
-.kolum
+.work
 {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 }
-.kolum div
+.work div
 {
 	width: 30%;
 	line-height: 1.4em;
 	padding-bottom: 80px;
 }
-.filmografia
+.work div:nth-child(1)
+{
+	border-bottom: 15px double #333333;
+	border-top: 15px double #333333;
+	border-left: 15px double #333333;
+	border-radius: 10px 10px 10px 10px;
+}
+.work div:nth-child(2)
 {
 	border-bottom: 15px double #333333;
 	border-radius: 10px 10px 10px 10px;
 	border-top: 15px double #333333;
 
 }
-.aktor
+.work div:nth-child(3)
 {
 	border-bottom: 15px double #333333;
 	border-top: 15px double #333333;
 	border-right: 15px double #333333;
 	border-radius: 10px 10px 10px 10px;
 }
-.dyskografia
-{
-	border-bottom: 15px double #333333;
-	border-top: 15px double #333333;
-	border-left: 15px double #333333;
-	border-radius: 10px 10px 10px 10px;	
-}
-.epad
-{
-padding: 0 8% 0 8%
-}
-.galeria
+.gallery
 {
 	display: flex;
 	justify-content: space-between;
 	padding: 70px 0;
 }
-.galeria img
+.gallery img
 {
 	width: 20%;
 }
@@ -220,18 +218,18 @@ padding: 0 8% 0 8%
 	margin-top: -40px;
 }
 @media screen and (max-width: 800px){
-.galeria{
+.gallery{
 	flex-direction: column;
 }
-.galeria img{
+.gallery img{
 	width: 100%;
 	margin: 20px 0;
 }
-.kolum{
+.work{
 	flex-direction: column;
 	align-items: center
 }
-.kolum div{
+.work div{
 	width: 90%;
 	border: 15px double #333333;
 	border-radius: 10px 10px 10px 10px;
