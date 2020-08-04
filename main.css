@@ -227,5 +227,14 @@ padding: 0 8% 0 8%
 	width: 100%;
 	margin: 20px 0;
 }
-
+.kolum{
+	flex-direction: column;
+	align-items: center
+}
+.kolum div{
+	width: 90%;
+	border: 15px double #333333;
+	border-radius: 10px 10px 10px 10px;
+	margin: 20px 0;
+}
 }
