@@ -44,7 +44,7 @@ body
 	text-decoration: none;
 	margin-right: 1em;
 	color: #000;
-	transition: all 0.9s ease;
+	transition: 0.9s ease;
 	border: 2px solid #fff;
 	border-radius: 7px;
 	padding: 4px;
@@ -214,5 +214,5 @@ padding: 0 8% 0 8%
 }
 .separator
 {
-	padding: -40px 0 0 0;
-}
+	margin-top: -40px;
+;}
