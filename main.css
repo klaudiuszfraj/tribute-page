@@ -44,7 +44,7 @@ body
 	text-decoration: none;
 	margin-right: 1em;
 	color: #000;
-	transition: 0.9s ease;
+	transition: background-color 0.9s ease;
 	border: 2px solid #fff;
 	border-radius: 7px;
 	padding: 4px;
@@ -236,5 +236,50 @@ padding: 0 8% 0 8%
 	border: 15px double #333333;
 	border-radius: 10px 10px 10px 10px;
 	margin: 20px 0;
+}
+.navi.hide{
+	opacity: 0;
+}
+.navi{
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	top: 110px;
+	right: 30px;
+	opacity: 1;
+	transition: opacity 2s;
+
+}
+.navi a{
+	color: #fff;
+	background-color: #010101;
+	font-size: 1.5rem;
+	padding: 10px 15px;
+	margin-bottom: 3px;
+}
+.navi a:hover{
+	color: #fff;
+	text-shadow: 3px 2px 4px gray;
+	border: 2px solid #fff;
+	background-color: gray;
+}
+.hamburger{
+	width: 60px;
+	height: 60px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.hamburger .row{
+	width: 50px;
+	height: 10px;
+	background-color: #010101;
+	border-radius: 7px;
+	transition: 1s;
+
+}
+.hamburger.clicked .row:nth-child(2){
+	transform: translateX(-10px);
 }
 }
