@@ -5,14 +5,14 @@ body
 	background-color: #fff;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
-	font-style: 16px;
+	font-size: 16px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	max-width: 1600px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 0px;
+	margin-top: 0;
 
 }
 .fheader
@@ -26,7 +26,7 @@ body
 .menu
 {
 	position: sticky;
-	top: 0px;
+	top: 0;
 	width: 100%
 
 }
@@ -64,7 +64,7 @@ body
 	flex-direction: column;
 	justify-content: center;
 	background-color: #010101;
-	margin-bottom: 0px;	
+	margin-bottom: 0;
 }
 .foto
 {
@@ -82,7 +82,7 @@ section
 {
 	display: flex;
 	flex-direction: column;
-	padding: 40px 0px 40px 0px;
+	padding: 40px 0 40px 0;
 	margin-bottom: 30px;
 }
 h1, h2, h3, p
@@ -101,7 +101,7 @@ ul
 {
 	list-style: none;
 	text-align: center;
-	padding-inline-start: 0px;
+	padding-inline-start: 0;
 	font-size: 14px;
 
 }
@@ -117,7 +117,7 @@ ul
 {
 	width: 40px;
 	height: 40px;
-	background: url("img/scrollup.png") no-repeat 0px 0px;
+	background: url("img/scrollup.png") no-repeat 0 0;
 	position: fixed;
 	right: 20px;
 	bottom: 50px;
@@ -202,7 +202,7 @@ span
 }
 .epad
 {
-padding: 0px 8% 0px 8%
+padding: 0 8% 0 8%
 }
 .galeria
 {
@@ -214,5 +214,5 @@ padding: 0px 8% 0px 8%
 }
 .separator
 {
-	padding: -40px 0px 0px 0px;
+	padding: -40px 0 0 0;
 }
