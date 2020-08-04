@@ -15,7 +15,7 @@ body
 	margin-top: 0px;
 
 }
-#fheader
+.fheader
 {
 	display: flex;
 	justify-content: space-between;
@@ -30,16 +30,16 @@ body
 	width: 100%
 
 }
-#logo img
+.logo img
 {
 	max-width: 150px;
 	cursor: pointer;
 }
-#navi
+.navi
 {
 	font-size: 18px;
 }
-#navi a
+.navi a
 {
 	text-decoration: none;
 	margin-right: 1em;
@@ -50,7 +50,7 @@ body
 	padding: 4px;
 	font-size: 14px;
 }
-#navi a:hover
+.navi a:hover
 {
 	color: #fff;
 	text-shadow: 3px 2px 4px gray;
@@ -58,7 +58,7 @@ body
 	background-color: #392912;
 
 }
-#sec1
+.sec1
 {
 	display: flex;
 	flex-direction: column;
@@ -66,7 +66,7 @@ body
 	background-color: #010101;
 	margin-bottom: 0px;	
 }
-#foto
+.foto
 {
 	display: flex;
 	flex-direction: row;
@@ -74,7 +74,7 @@ body
 	background-color: #010101;
 	justify-content: center;
 }
-#foto img
+.foto img
 {
 	align-self: center;
 }
@@ -113,7 +113,7 @@ ul
 	top: 0;
 	z-index: 2;
 }*/
-#scrollup
+.scrollup
 {
 	width: 40px;
 	height: 40px;
@@ -128,7 +128,7 @@ h1
 color: #fff;
 text-align: center;
 }
-#cytat
+.cytat
 {
 	color: #fff;
 	width: 70%;
@@ -155,45 +155,45 @@ span
 {
 	font-size: 18px;
 }
-#kar
+.kar
 {
 	background-image: url("img/tlo1.png");
 	background-origin: padding-box;
 	background-repeat: space;
 	background-position: left top;
 }
-#Kariera
+.Kariera
 {
 	background: rgba(255, 255, 255, 0.85);
 
 }
-#kolum
+.kolum
 {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 }
-#kolum div
+.kolum div
 {
 	width: 30%;
 	line-height: 1.4em;
 	padding-bottom: 80px;
 }
-#Filmografia
+.filmografia
 {
 	border-bottom: 15px double #333333;
 	border-radius: 10px 10px 10px 10px;
 	border-top: 15px double #333333;
 
 }
-#Aktor
+.aktor
 {
 	border-bottom: 15px double #333333;
 	border-top: 15px double #333333;
 	border-right: 15px double #333333;
 	border-radius: 10px 10px 10px 10px;
 }
-#Dyskografia
+.dyskografia
 {
 	border-bottom: 15px double #333333;
 	border-top: 15px double #333333;
@@ -204,15 +204,15 @@ span
 {
 padding: 0px 8% 0px 8%
 }
-#galeria
+.galeria
 {
 	display: flex;
 	justify-content: space-between;}
-#galeria img
+.galeria img
 {
 	width: 20%;
 }
-#separator
+.separator
 {
 	padding: -40px 0px 0px 0px;
 }
