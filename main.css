@@ -236,7 +236,7 @@ span
 	margin: 20px 0;
 }
 .navi.hide{
-	opacity: 0;
+	display: none;
 }
 .navi{
 	display: flex;
@@ -245,8 +245,6 @@ span
 	top: 110px;
 	right: 30px;
 	opacity: 1;
-	transition: opacity 2s;
-
 }
 .navi a{
 	color: #fff;
